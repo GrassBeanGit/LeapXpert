@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="User Mangement">
+	<test name="Client Search" parallel="none">
+		<classes>
+			<class name="testModule.ClientSearchTest" />
+		</classes>
+	</test>
+
+	<test name="Client Detail" parallel="none">
+		<classes>
+			<class name="testModule.ClientDetailTest" />
+		</classes>
+	</test>
+</suite>
